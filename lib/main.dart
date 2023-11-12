@@ -1,11 +1,12 @@
 import 'package:flutter/material.dart';
 import 'gradient_container.dart';
 
+var colors = [Colors.pink, Colors.purple];
+
 void main() {
-  runApp(
-    const MaterialApp(
+  runApp(MaterialApp(
     home: Scaffold(
-      body: GradientContainer(),
+      body: GradientContainer(colors),
     ),
   ));
 }
